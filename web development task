@@ -1,0 +1,353 @@
+TASK-1  LANDING SPACE
+
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vpn landing Page Design</title>
+    <link rel="icon" type="x-icon" href="favicon.ico">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.43.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      html {
+  scroll-behavior: smooth;
+}
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            padding: {
+              DEFAULT: "1rem",
+              sm: "2rem",
+              lg: "6rem",
+              xl: "7rem",
+              "2xl": "6rem",
+            },
+          },
+          extend: {
+            backgroundImage: {
+        'reward': "url('reward.png')",
+       
+      },
+            colors: {
+              bg: {
+                DEFAULT: "#f53838",
+                200: "#272727",
+                300: "#2e2e2e",
+              },
+              primary: {
+                DEFAULT: "#f53838",
+              
+              },
+              secondary: {
+                DEFAULT: "#f53838",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    </style>
+  </head>
+  <body class="" style="font-family: 'Outfit', sans-serif, sans-serif">
+    <!-- navbar -->
+    <div class="container mx-auto ">
+        <div class="flex justify-between items-center py-4">
+        <img src="logo.svg" alt="logo">
+        <div class="flex items-center gap-10">
+            <p>About</p>
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Testimonials</p>
+            <p>Help</p>
+        </div>
+        <div class="flex items-center gap-5">
+            <button class="">Sign In</button>
+            <button class="btn btn-outline border-primary text-primary rounded-full btn-sm">Sign Up</button>
+        </div>
+        </div>
+    </div>
+    <!-- hero section -->
+    <div class="container mx-auto ">
+        <div class="flex justify-between items-center h-screen">
+            <div class="flex flex-col gap-10">
+                <p class="text-5xl font-bold">Want anything to be <br> easy with LaslesVPN.</p>
+                <p>Provide a network for all your needs with ease and fun using LaslesVPN <br> discover interesting features from us.</p>
+                <button class="btn bg-primary border-none capitalize shadow-lg shadow-primary/50 w-48">Get Started</button>
+            </div>
+            <img src="hero.svg" alt="">
+        </div>
+</div>
+ 
+    <!-- Users section -->
+    <div class="container mx-auto py-20">
+        <div class="grid gap-16 px-10 py-10 rounded-2xl grid-cols-3 divide-x items-center shadow-xl shadow-gray-500\/50 justify-center divide-gray-300">
+            <div class="flex items-center gap-5 justify-center">
+                <img src="user.svg" alt="user">
+                <div class="">
+                    <p class="text-xl font-semibold">90+</p>
+                    <p class="">User</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-5 justify-center">
+                <img src="user.svg" alt="user">
+                <div class="">
+                    <p class="text-xl font-semibold">90+</p>
+                    <p class="">User</p>
+                </div>
+            </div>   <div class="flex items-center gap-5 justify-center">
+                <img src="user.svg" alt="user">
+                <div class="">
+                    <p class="text-xl font-semibold">90+</p>
+                    <p class="">User</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Download App section -->
+    <div class="container mx-auto ">
+        <div class="flex justify-between items-center h-screen">
+            <img src="features.svg" alt="">
+            <div class="flex flex-col gap-10">
+                <p class="text-5xl font-bold">We Provide Many <br> Features You Can Use</p>
+                <p>You can explore the features that we provide with fun <br> and have their own functions each feature.</p>
+              <div class="flex gap-5 items-center">
+                <img src="greentik.svg" alt="tik">
+                <p>Powerfull online protection.</p>
+              </div>
+              <div class="flex gap-5 items-center">
+                <img src="greentik.svg" alt="tik">
+                <p>Powerfull online protection.</p>
+              </div>
+              <div class="flex gap-5 items-center">
+                <img src="greentik.svg" alt="tik">
+                <p>Powerfull online protection.</p>
+              </div>
+              <div class="flex gap-5 items-center">
+                <img src="greentik.svg" alt="tik">
+                <p>Powerfull online protection.</p>
+              </div>
+            </div>
+           
+        </div>
+</div>
+
+    <!--Testimonials section -->
+    <!--Plan section -->
+
+    <div class="container mx-auto py-20">
+      <p class="text-3xl font-semibold text-center">Choose Your Plan</p>
+      <p class="text-center">Let's choose the package that is best for you and <br> explore it happily and cheerfully.</p>
+      <div class="grid grid-cols-3 py-10 gap-16 items-center ">
+        <div class=" px-6 py-6 flex flex-col justify-center items-center gap-5 border border-gray-300 rounded-xl">
+          <img src="plan.svg" alt="plan">
+          <p class="text-xl font-semibold">Free Plan</p>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Unlimited Bandwitch</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Encrypted Connection</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>No Traffic Logs</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Works on All Devices</p>
+          </div>
+            <p class="text-2xl font-bold">free</p>
+            <button class="btn btn-outline border-2 capitalize w-44 mx-auto hover:bg-primary hover:text-white hover:border-none border-primary rounded-full text-primary">Select</button>
+        </div>
+        <div class=" px-6 py-6 flex flex-col justify-center items-center gap-5 border border-gray-300 rounded-xl">
+          <img src="plan.svg" alt="plan">
+          <p class="text-xl font-semibold">Standard Plan</p>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Unlimited Bandwitch</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Encrypted Connection</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>No Traffic Logs</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Works on All Devices</p>
+          </div>
+            <p class="text-2xl font-bold">$9 / mo</p>
+            <button class="btn btn-outline border-2 capitalize w-44 mx-auto hover:bg-primary hover:text-white hover:border-none border-primary rounded-full text-primary">Select</button>
+        </div>
+        <div class=" px-6 py-6 flex flex-col justify-center items-center gap-5 border border-gray-300 rounded-xl">
+          <img src="plan.svg" alt="plan">
+          <p class="text-xl font-semibold">Premium Plan</p>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Unlimited Bandwitch</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Encrypted Connection</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>No Traffic Logs</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <img src="plantik.svg" alt="plantik">
+            <p>Works on All Devices</p>
+          </div>
+            <p class="text-2xl font-bold">$12 / mo</p>
+            <button class="btn btn-outline border-2 capitalize w-44 mx-auto hover:bg-primary hover:text-white hover:border-none border-primary rounded-full text-primary">Select</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Map  section -->
+
+<div class="container mx-auto py-20 flex flex-col gap-5 justify-center items-center">
+  <p class="text-3xl font-semibold text-center">Huge Global Network <br> of Fast VPN</p>
+  <p class="text-center pb-16">See LaslesVPN everywhere to make it easier for you when you move <br> locations.</p>
+  <img src="map.svg" alt="company">
+</div>
+<!-- company section -->
+
+<div class="container mx-auto flex justify-center items-center">
+  <img src="company.svg" alt="">
+</div>
+
+<!-- happy customer -->
+<div class="container mx-auto">
+  <p class="text-3xl font-semibold text-center">Trusted by Thousands of <br> Happy Customer</p>
+  <p class="text-center pb-16 pt-3">These are the stories of our customers who have joined us with great <br> pleasure when using this crazy feature.</p>
+  <div class="grid grid-cols-3 gap-16">
+      <div class="space-y-4 px-4 py-4 border-2 border-gray-400 rounded-xl hover:border-primary">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-4">
+            <img src="ts1.svg" alt="ts1">
+            <div>
+              <p class="text-lg font-semibold">Viezh Robert</p>
+              <p class="text-xs text-gray-400">Warsaw, Poland</p>
+            </div>
+          </div>
+          <div class="flex gap-2 items-center">
+            <p>4.5</p>
+            <img src="star.svg" alt="">
+          </div>
+        </div>
+        <p class="font-medium">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+      </div>
+      <div class="space-y-4 px-4 py-4 border-2 border-gray-400 rounded-xl hover:border-primary">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-4">
+            <img src="ts2.svg" alt="ts1">
+            <div>
+              <p class="text-lg font-semibold">Yessica Christy</p>
+              <p class="text-xs text-gray-400">Warsaw, Poland</p>
+            </div>
+          </div>
+          <div class="flex gap-2 items-center">
+            <p>4.5</p>
+            <img src="star.svg" alt="">
+          </div>
+        </div>
+        <p class="font-medium">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+      </div>
+      <div class="space-y-4 px-4 py-4 border-2 border-gray-400 rounded-xl hover:border-primary">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-4">
+            <img src="ts3.svg" alt="ts1">
+            <div>
+              <p class="text-lg font-semibold">Kim Young Jou</p>
+              <p class="text-xs text-gray-400">Warsaw, Poland</p>
+            </div>
+          </div>
+          <div class="flex gap-2 items-center">
+            <p>4.5</p>
+            <img src="star.svg" alt="">
+          </div>
+        </div>
+        <p class="font-medium">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+      </div>
+  </div>
+
+    <!--Call To action section -->
+</div>
+
+<!-- call to action -->
+
+<div class="container mx-auto py-10">
+    <div class="flex justify-between items-center  shadow-2xl shadow-gray-400 bg-gray-50 rounded-xl px-10 py-10">
+      <div class="space-y-2">
+        <p class="text-3xl font-bold">Subscribe Now for <br> Get Special Features!</p>
+        <p>Let's subscribe with us and find the fun.</p>
+      </div>
+
+      <button class="btn bg-primary border-none capitalize shadow-lg shadow-primary/50 w-48">Subscribe Now</button>
+    </div>
+</div>
+
+    <!--Footer section -->
+
+    <div class="container mx-auto py-20 bg-gray-50">
+      <div class="grid grid-cols-4 gap-16">
+        <div class="space-y-4">
+          <img src="logo.svg" alt="logo">
+          <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
+          <div class="flex items-center">
+            <img src="fb.svg" alt="fb">
+            <img src="twite.svg" alt="twite">
+            <img src="insta.svg" alt="insta">
+          </div>
+          <p class="text-gray-400">©2020LaslesVPN</p>
+        </div>
+        <div class="space-y-4">
+          <p class="text-xl font-semibold">product</p>
+          <p>Download</p>
+          <p>pricing</p>
+          <p>Locations</p>
+          <p>Server</p>
+          <p>Countries</p>
+          <p>Blog</p>
+        </div>
+        <div class="space-y-4">
+          <p class="text-xl font-semibold">Engage</p>
+          <p>Download</p>
+          <p>pricing</p>
+          <p>Locations</p>
+          <p>Server</p>
+          <p>Countries</p>
+          <p>Blog</p>
+        </div>
+        <div class="space-y-4">
+          <p class="text-xl font-semibold">Earn Money</p>
+          <p>Download</p>
+          <p>pricing</p>
+
+        </div>
+      </div>
+    </div>
+
+  <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+  </body>
+</html>
+
+
+
+
+
